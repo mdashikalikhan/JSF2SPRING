@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml"
@@ -14,6 +15,9 @@
 <h3><h:outputText value="#{mymsg.greeting_text}"/> </h3>
 	<h:outputFormat value="#{mymsg.greeting_custom}">
 		<f:param value="#{personBean.name}"/>
+	</h:outputFormat>
+	<h:outputFormat value="#{mymsg.hidden_value}">
+		<f:param value="#{hiddenInput}"/>
 	</h:outputFormat>
 </body>
 </html>
