@@ -9,6 +9,7 @@ import javax.faces.bean.RequestScoped;
 public class PersonBean {
 	
 	private String name;
+	
 
 	public String getName() {
 		return name;
