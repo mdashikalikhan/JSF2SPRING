@@ -13,9 +13,9 @@
 <body>
 	<h3> <h:outputText value="#{mymsg.header}" /> </h3> 
 	<h:form>
-		<h:inputText id="name" value="#{personBean.name}"></h:inputText>
-		<h:commandButton value="Type Name and Click" action="#{personBean.action}"/>
-		
+		<h:inputText id="name" value="#{personBean.name}" ></h:inputText>
+		<h:commandButton value="Type Name and Click" action="#{personBean.action}"/><br/>
+		<h:inputHidden id="hiddenInput" value="123" ></h:inputHidden>
 	</h:form>
 </body>
 </html>
